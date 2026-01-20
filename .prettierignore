@@ -1,4 +1,13 @@
 node_modules
 dist
 dist-ssr
+docs
 *.yaml
+*.yml
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+coverage
+.env
+.env.*
+!.env.example

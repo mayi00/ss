@@ -151,7 +151,7 @@ function downloadExcel(val, name) {
 
 <template>
   <div class="g-container">
-    <h1>学生课时</h1>
+    <h1>课时</h1>
     <el-card class="card">
       <el-button type="primary" @click="handleUploadDialogOpen">上传文件</el-button>
       <p v-if="excelData.length > 1" class="tip">检测到存在多个Sheet页，请选择一个下载</p>

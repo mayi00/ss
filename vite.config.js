@@ -60,8 +60,8 @@ export default ({ mode }) => {
       // Rollup 打包配置，打包文件按照类型分文件夹显示
       rollupOptions: {
         output: {
-          chunkFileNames: `assets/js/[hash]-${new Date().getTime()}.js`,
-          entryFileNames: `assets/js/[hash]-${new Date().getTime()}.js`,
+          chunkFileNames: `assets/js/[hash].js`,
+          entryFileNames: `assets/js/[hash].js`,
           assetFileNames: 'static/[ext]/[name]-[hash].[ext]',
 
           // 打包文件拆分
